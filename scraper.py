@@ -42,5 +42,5 @@ def scrape_and_look_for_next_link(url):
 
 # ---------------------------------------------------------------------------
 # START HERE: define your starting URL - then call a function to scrape it
-2 starting_url = 'http://inmo.ie/6022'
-3 scrape_and_look_for_next_link(starting_url)
+starting_url = 'http://inmo.ie/6022'
+scrape_and_look_for_next_link(starting_url)
