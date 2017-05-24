@@ -16,7 +16,7 @@ def scrape_table(root):
         record = {}
         table_cells = row.cssselect("td")
         if table_cells: 
-            record['Date'] = table_cells[0].text
+            record['Date'] = table_cells[0].text_content()
             record['Hospital'] = table_cells[1].text
             record['Region'] = table_cells[2].text
             record['Trolley Total'] = table_cells[3].text
